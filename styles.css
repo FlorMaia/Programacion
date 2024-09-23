@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+}
+
+body {
+        font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+        width: 100vw;
+        height: 100vh;
+        background-color: #5da4ac;
+        color: #fff;
+}
+
+.brand {
+        margin-top: -7px;
+        
+}
+
+.span {
+        color: #5da4ac;
+        
+}
+.navbar {
+        display: flex;
+        justify-content: space-between;
+      padding:2em;
+
+}
+.menu {
+        display: flex;
+        width: 70%;
+        justify-content: space-around;
+}
+.menu li {
+        list-style: none;
+}
+
+
+
+.menu a {
+        color: black;
+        text-decoration: none;
+        padding: 10vw, 20vw;
+
+}
+
+.menu .active {
+        color: rgb(143, 143, 18);
+}
+
+
+
+.menu a:hover {
+        font-size: 18px;
+        color: #f0f0f0;
+        font-weight: 500;
+        margin: 0 20px;
+        border: 3px solid transparent;
+}
+.navbar a:hover,
+.navbar a.active{
+        color: #cadadb;
+        border-bottom: 1px solid rgb(255, 255, 255);
+
+}    
+
+.contact{
+        padding: 10px 20px;
+        background-color: rgb(75, 141, 199);
+        color: rgb(170, 24, 24);
+        border: 2px solid transparent;
+        border-radius:  8px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: 0.3s ease;
+}
+.contact :hover{
+        background-color: #6aaeb2;
+        box-shadow: 0 0 25px rgb(35, 88, 167);
+        color:white;
+}
+
+
+.main {
+       width: 100%;
+       min-height: 100vh;
+       background: #5da4ac;
+       display: flex;
+       align-items: center;
+       gap: 7em;
+       padding: 30px 12% 0;
+
+
+}
+.home-contant{
+        max-width: 800px;
+
+}
+.home-contact h3{
+        font-size:42px;
+}
+
+.home-contacth1 {
+        font-size: 62px;
+        line-height: 1.2;
+
+}
+.home-contact p{
+        font-size: 18px;
+        margin: 25px 0 30px
+}
+.btm-box{
+        width: 345;
+        display: flex;
+        gap: 2em;
+}
+.btm-1{
+        padding: 15px 28px;
+        background-color: rgb(224, 219, 219);
+        color: rgb(0, 0, 0);
+        border:  2px solid transparent;
+        border-radius:  8px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: 0.3s ease;
+        cursor: pointer;
+}
+
+.btm-1:hover{
+        background-color: aqua;
+        color: white;
+        border: 2px solid black;
+}
+
+
+.btm-2{
+        padding: 15px 28px;
+        background-color: rgb(56, 67, 221);
+        color: white;
+        border:  2px solid transparent;
+        border-radius:  8px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: 0.3s ease;
+        cursor: pointer;
+}
+
+.btm-2:hover{
+        background-color: azure;
+        color: aquamarine;
+
+}
+.img-box img{
+         border-radius: 50%;
+        width:  550px;
+}
+::-webkit-scrollbar{
+        width: 15px;
+}
+::-webkit-scrollbar-thumb{
+       background-color: rgb(25, 52, 128);
+}
+::-webkit-scrollbar-track{
+        background-color: rgb(34, 45, 197);
+width: 50px;
+
+}
+
+.about{
+        display: flex;
+        justify-content:center;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap ;
+        align-items: center;
+        padding: 12% 8%;
+        gap:10em;
+        background: rgb(30, 3, 80);
+}
+
+.about-img img{
+        position: relative;
+        width: 550px;
+       box-shadow: 0 0 rgb(255, 138, 4);
+       border-radius: 50%;
+}
+.about-content h2{
+        text-align: left;
+        color: rgb(31, 93, 148);
+        font-size: 42px;
+}
+.about-content h3{
+        font-size:  62px;
+        color: aquamarine;
+}
+.about-content p{
+        color: #f0f0f0;
+        font-size: 20px;
+        margin: 2em 0 3em;
+
+
+}
+
+
+
+
+
+
+
+
+
